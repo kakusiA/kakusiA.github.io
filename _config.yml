@@ -6,7 +6,9 @@ url: "https://kakusA.github.io"
 
 # Jekyll이 빌드 시 인식하는 마크다운 처리기나 플러그인 설정
 markdown: kramdown
-
+kramdown:
+  input: GFM          # GitHub Flavored Markdown 지원
+  syntax_highlighter: rouge
 # author 정보
 author:
   name: "kakusA"
