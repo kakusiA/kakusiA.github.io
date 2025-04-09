@@ -6,6 +6,7 @@ description: "학습블러그"
 author: "author"
 title: "kakusA의 학습 블로그"
 permalink: pretty
+future: true
 baseurl: "" # 프로젝트 폴더(서브 디렉토리)에 배포할 때 사용, 사용자 페이지는 보통 비움
 # social
 github:
