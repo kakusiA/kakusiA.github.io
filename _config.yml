@@ -1,0 +1,21 @@
+title: "kakusA의 학습 블로그"
+description: "공부한 내용을 기록하고 공유하는 블로그"
+theme: minima # GitHub Pages에서 기본적으로 지원하는 테마 중 하나
+baseurl: "" # 프로젝트 폴더(서브 디렉토리)에 배포할 때 사용, 사용자 페이지는 보통 비움
+url: "https://kakusA.github.io"
+
+# Jekyll이 빌드 시 인식하는 마크다운 처리기나 플러그인 설정
+markdown: kramdown
+
+# author 정보
+author:
+  name: "kakusA"
+  email: "your_email@example.com"
+
+# (선택) Posts 관련 옵션
+# 포스트 URL을 /2025/04/09/slug/ 형태로 만들고 싶다면 아래 처럼 설정
+permalink: /:year/:month/:day/:title/
+
+# (선택) 빌드에서 제외하고 싶은 파일/폴더
+exclude:
+  - README.md
